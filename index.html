@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Professionnel | Développeur & Guide</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-blue-600">MON PORTFOLIO</h1>
+            <div class="space-x-6 hidden md:flex">
+                <a href="#projets" class="hover:text-blue-500">Projets</a>
+                <a href="#experiences" class="hover:text-blue-500">Expériences</a>
+                <a href="#contact" class="hover:text-blue-500">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white py-20 px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Développeur Full-Stack & Guide Touristique</h2>
+        <p class="text-xl max-w-2xl mx-auto opacity-90">
+            Étudiant en L3 Informatique spécialisé en Java Spring Boot et expert en logistique de transport à Madagascar.
+        </p>
+        <div class="mt-8">
+            <a href="#projets" class="bg-white text-blue-700 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition">Voir mes projets</a>
+        </div>
+    </header>
+
+    <section class="max-w-6xl mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold text-center mb-12">Mes Compétences</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-blue-500 text-center">
+                <i class="fas fa-code text-3xl text-blue-500 mb-4"></i>
+                <h4 class="font-bold text-lg mb-2">Développement</h4>
+                <p class="text-sm text-gray-600">Java (Spring Boot), Python (Tkinter), PHP, WordPress.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-green-500 text-center">
+                <i class="fas fa-truck-loading text-3xl text-green-500 mb-4"></i>
+                <h4 class="font-bold text-lg mb-2">Logistique & Douane</h4>
+                <p class="text-sm text-gray-600">Gestion de stock, chaîne d'approvisionnement, circuit de dédouanement.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-sm border-t-4 border-yellow-500 text-center">
+                <i class="fas fa-language text-3xl text-yellow-500 mb-4"></i>
+                <h4 class="font-bold text-lg mb-2">Langues & Guide</h4>
+                <p class="text-sm text-gray-600">Français, Anglais, Malagasy. Guide accompagnateur expérimenté.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="bg-gray-100 py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h3 class="text-3xl font-bold text-center mb-12">Projets Phares</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+                    <div class="h-48 bg-blue-600 flex items-center justify-center text-white text-4xl">
+                        <i class="fas fa-box-open"></i>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">SCM-Lite (Java Spring Boot)</h4>
+                        <p class="text-gray-600 text-sm mb-4">Système de gestion de la chaîne d'approvisionnement optimisé pour les PME.</p>
+                        <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Java</span>
+                        <span class="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Thymeleaf</span>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-lg hover:scale-105 transition duration-300">
+                    <div class="h-48 bg-green-600 flex items-center justify-center text-white text-4xl">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-xl mb-2">Madagascar Tours (WordPress)</h4>
+                        <p class="text-gray-600 text-sm mb-4">Site vitrine de réservations touristiques avec WP Travel Engine.</p>
+                        <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">WordPress</span>
+                        <span class="inline-block bg-green-100 text-green-800 text-xs px-2 py-1 rounded">SEO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 px-4 text-center">
+        <h3 class="text-3xl font-bold mb-6">Travaillons ensemble</h3>
+        <p class="mb-8">Disponible pour des missions en développement ou en tourisme.</p>
+        <div class="flex justify-center space-x-6">
+            <a href="mailto:votre-email@gmail.com" class="text-blue-600 text-3xl hover:text-blue-800"><i class="fas fa-envelope"></i></a>
+            <a href="#" class="text-blue-600 text-3xl hover:text-blue-800"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-green-600 text-3xl hover:text-green-800"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8 text-center text-sm">
+        <p>&copy; 2026 - Créé avec passion par votre-nom</p>
+    </footer>
+
+</body>
+</html>
